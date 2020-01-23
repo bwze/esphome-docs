@@ -15,7 +15,7 @@ consists of 2 pins:
 - **TX**: This line is used to send data to the device at the other end.
 - **RX**: This line is used to receive data from the device at the other end.
 
-Please note that these the naming of these two pins depends on the chosen perspective and can be ambiguous. For example,
+Please note that the naming of these two pins depends on the chosen perspective and can be ambiguous. For example,
 while the ESP might send (``TX``) on pin A and receive (``RX``) data on pin B, from the other devices
 perspective these two pins are switched (i.e. *it* sends on pin B and receives on pin A). So you might
 need to try with the two pins switched if it doesn't work immediately.
